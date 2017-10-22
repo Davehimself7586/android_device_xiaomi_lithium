@@ -21,9 +21,6 @@ DEVICE_PATH := device/xiaomi/lithium
 # Assert
 TARGET_OTA_ASSERT_DEVICE := lithium
 
-# Board
-TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
-
 # Audio
 AUDIO_FEATURE_ELLIPTIC_ULTRASOUND_SUPPORT := true
 
