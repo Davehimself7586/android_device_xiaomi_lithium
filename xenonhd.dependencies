@@ -1,0 +1,17 @@
+[
+  {
+    "repository": "TeamHorizon/android_kernel_xiaomi_msm8996",
+    "target_path": "kernel/xiaomi/msm8996",
+    "branch": "n"
+  },
+  {
+    "repository": "TeamHorizon/proprietary_vendor_xiaomi",
+    "target_path": "vendor/xiaomi",
+    "branch": "n"
+  },
+  { 
+    "repository": "TeamHorizon/android_device_xiaomi_msm8996-common",
+    "target_path": "device/xiaomi/msm8996-common",
+    "branch": "n"     
+  }
+]

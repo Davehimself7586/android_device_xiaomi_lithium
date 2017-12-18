@@ -1,15 +1,19 @@
 $(call inherit-product, device/xiaomi/lithium/full_lithium.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common xenonhd stuff.
+$(call inherit-product, vendor/xenonhd/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_lithium
+PRODUCT_NAME := xenonhd_lithium
 PRODUCT_DEVICE := lithium
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI MIX
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+ROOT_METHOD=su
+
+PRODUCT_PROPERTY_OVERRIDES += ro.xenonhd.maintainer=Dave
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="lithium" \
